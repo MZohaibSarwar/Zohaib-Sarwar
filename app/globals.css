@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-start-rgb));
+}
+
+@layer base {
+    body {
+        @apply antialiased;
+    }
+}
+
+.bg-dark {
+    background-color: #0d1117;
+}
+
+.text-primary {
+    color: #eab308;
+}
+
+.bg-primary {
+    background-color: #eab308;
+}
+
+.border-primary {
+    border-color: #eab308;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d1117;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f2937;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2d3748;
+}
+
+.react-icons svg {
+    height: 24px;
+    width: 24px;
+}
