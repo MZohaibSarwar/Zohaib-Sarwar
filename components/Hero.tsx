@@ -20,7 +20,7 @@ export default function Hero() {
                     transition={{ duration: 0.5 }}
                 >
                     <span className="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wider text-primary uppercase bg-primary/10 border border-primary/20 rounded-full">
-                        Full Stack Developer & SEO Strategist
+                        Full Stack Developer | CPA & Certified PMP
                     </span>
                 </motion.div>
 
@@ -30,8 +30,8 @@ export default function Hero() {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-[1.1]"
                 >
-                    Building <span className="text-primary">High-Ranking</span> <br />
-                    Web Experiences.
+                    Bridging <span className="text-primary">Finance</span> <br />
+                    & Technology.
                 </motion.h1>
 
                 <motion.p
@@ -40,8 +40,7 @@ export default function Hero() {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-10 leading-relaxed"
                 >
-                    I combine 4+ years of Full Stack Development expertise with Technical SEO strategy
-                    to build fast, scalable, and conversion-focused websites that rank on page one.
+                    Combining technical coding expertise with 10+ years of financial project management, technical accounting, and system integration experience.
                 </motion.p>
 
                 <motion.div

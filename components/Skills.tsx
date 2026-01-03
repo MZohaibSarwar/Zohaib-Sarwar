@@ -28,19 +28,19 @@ const skillCategories: SkillCategory[] = [
         skills: ["Node.js", "Express", "Python", "Django", "PHP", "Laravel"],
     },
     {
+        title: "Financial & ERP Systems",
+        icon: Database,
+        skills: ["Oracle", "SAP", "Workday", "PeopleSoft", "NetSuite", "COGNOS", "Hyperion", "Essbase"],
+    },
+    {
+        title: "Business Analysis",
+        icon: Search,
+        skills: ["Tableau", "Quicksight", "Advanced Excel", "Advanced Visio", "Process Improvement", "System Integration"],
+    },
+    {
         title: "CMS Platforms",
         icon: Layers,
         skills: ["WordPress", "Shopify", "Squarespace", "Wix", "Custom CMS Themes"],
-    },
-    {
-        title: "Databases",
-        icon: Database,
-        skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase"],
-    },
-    {
-        title: "SEO Excellence",
-        icon: Search,
-        skills: ["Technical SEO", "On-Page SEO", "Schema Markup", "Core Web Vitals", "Speed Optimization", "SEO Audits"],
     },
     {
         title: "Tools & DevOps",

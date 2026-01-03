@@ -13,15 +13,15 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const metadata: Metadata = {
-    title: "Zohaib Sarwar | Full Stack Developer & SEO Strategist",
-    description: "Professional portfolio of Zohaib Sarwar, specializing in building high-performance, SEO-optimized web applications with 4+ years of experience.",
-    keywords: ["Full Stack Developer", "SEO Strategist", "Next.js Developer", "Technical SEO", "Web Performance"],
+    title: "Waqas Asghar | Full Stack Developer & CPA/PMP",
+    description: "Professional portfolio of Waqas Asghar, a Full Stack Developer & CPA/PMP with 10+ years of experience in financial project management and system integration.",
+    keywords: ["Full Stack Developer", "CPA", "PMP", "Financial Systems", "ERP", "Next.js", "Technical Accounting"],
     openGraph: {
-        title: "Zohaib Sarwar | Full Stack Developer & SEO Strategist",
-        description: "Building High-Ranking Websites with Performance and Scalability.",
+        title: "Waqas Asghar | Full Stack Developer & CPA/PMP",
+        description: "Bridging the gap between high-quality development and financial project management.",
         type: "website",
-        url: "https://zohaibsarwar.com",
-        siteName: "Zohaib Sarwar Portfolio",
+        url: "https://waqasasghar.com",
+        siteName: "Waqas Asghar Portfolio",
     },
 };
 

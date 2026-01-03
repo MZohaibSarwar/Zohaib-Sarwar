@@ -7,14 +7,14 @@ const education = [
     {
         degree: "Bachelor of Science in Information Technology",
         institution: "University Of The Punjab | Lahore",
-        period: "2017-2021",
+        period: "2016-2020",
         details: "Focus on software engineering, database management, and web technologies."
     },
     {
-        degree: "Intermediate | FSC Pre Eng.",
+        degree: "Intermediate | Computer Science",
         institution: "Bise Lahore",
         period: "2014-2016",
-        details: "Advanced mathematics and physics foundation for engineering studies."
+        details: "Focus on software engineering, database management, and web technologies."
     },
     {
         degree: "Matric | Science Group",

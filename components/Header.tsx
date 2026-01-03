@@ -43,7 +43,7 @@ export default function Header() {
         >
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <Link href="/" className="text-2xl font-bold tracking-tighter text-primary">
-                    Zohaib Sarwar
+                    Waqas Asghar
                 </Link>
 
                 {/* Desktop Nav */}

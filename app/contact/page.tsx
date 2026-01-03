@@ -48,28 +48,28 @@ export default function ContactPage() {
                     </p>
 
                     <div className="space-y-8">
-                        <a href="https://wa.me/+923314831548" target="blank" className="flex items-center gap-6 group">
+                        <a href="https://wa.me/+923095566555" target="blank" className="flex items-center gap-6 group">
                             <div className="p-4 rounded-2xl bg-white/5 border border-white/10 group-hover:border-primary/50 transition-colors">
                                 <Phone className="text-primary" />
                             </div>
                             <div>
                                 <p className="text-sm font-semibold text-gray-500 uppercase">Whatsapp Me</p>
-                                <p className="text-xl font-bold">+923314831548</p>
+                                <p className="text-xl font-bold">+923095566555</p>
                             </div>
                         </a>
-                        <a href="mailto:zohaib.s169@gmail.com" target="blank" className="flex items-center gap-6 group">
+                        <a href="mailto:thewaqaspro@gmail.com" target="blank" className="flex items-center gap-6 group">
                             <div className="p-4 rounded-2xl bg-white/5 border border-white/10 group-hover:border-primary/50 transition-colors">
                                 <Mail className="text-primary" />
                             </div>
                             <div>
                                 <p className="text-sm font-semibold text-gray-500 uppercase">Email Me</p>
-                                <p className="text-xl font-bold">zohaib.s169@gmail.com</p>
+                                <p className="text-xl font-bold">thewaqaspro@gmail.com</p>
                             </div>
                         </a>
 
                         <div className="flex gap-4">
-                            <a href="http://www.linkedin.com/in/zohaib-sarwar-2631b3211" target="blank" className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><Linkedin /></a>
-                            <a href="https://github.com/MZohaibSarwar" target="blank" className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><Github /></a>
+                            <a href="https://www.linkedin.com/in/thewaqas/" target="blank" className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><Linkedin /></a>
+                            <a href="https://github.com/thewaqaspro" target="blank" className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><Github /></a>
                             <a href="https://www.fiverr.com/zohaib1sarwar" target="blank" className="react-icons p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><SiFiverr /></a>
                             <a href="https://www.upwork.com/freelancers/~01ba79c1150830620d?mp_source=share" target="blank" className="react-icons p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><SiUpwork /></a>
                         </div>
@@ -87,7 +87,7 @@ export default function ContactPage() {
                                 <Send className="text-primary" size={32} />
                             </div>
                             <h3 className="text-2xl font-bold mb-2">Message Received!</h3>
-                            <p className="text-gray-400">Thanks for reaching out, Zohaib will get back to you shortly.</p>
+                            <p className="text-gray-400">Thanks for reaching out, We will get back to you shortly.</p>
                             <button
                                 onClick={() => setStatus("idle")}
                                 className="mt-8 text-primary font-bold hover:underline"

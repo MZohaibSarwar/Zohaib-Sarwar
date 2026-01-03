@@ -5,22 +5,34 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
     {
-        role: "Full Stack Web Developer",
-        company: "Power Devs | Canada (Remote)",
-        period: "2025-Present",
-        description: "Leading development of scalable web applications and implementing performance-driven SEO strategies."
+        role: "Web Developer",
+        company: "121",
+        period: "Feb 2025 - Present",
+        description: "Full-time web development role focusing on modern web solutions."
     },
     {
         role: "Full Stack Web Developer",
-        company: "Power Funnels | Canada (Remote)",
-        period: "2022-2025",
-        description: "Developed conversion-optimized funnels and robust web solutions using modern tech stacks."
+        company: "Power Funnels",
+        period: "Jun 2021 - Jun 2025",
+        description: "Developed conversion-optimized funnels and robust web solutions using modern tech stacks. (Vancouver, British Columbia, Canada)"
     },
     {
-        role: "Teller Service Officer",
-        company: "Allied Bank Limited",
-        period: "2021-2022",
-        description: "Managed financial transactions and provided exceptional customer service in a professional banking environment."
+        role: "Full Stack Developer",
+        company: "Upwork (Freelance)",
+        period: "Aug 2021 - Sep 2024",
+        description: "Delivered web applications and custom solutions for diverse global clients. (Remote)"
+    },
+    {
+        role: "Wordpress Developer",
+        company: "Soft Enterprise",
+        period: "Feb 2021 - May 2021",
+        description: "Built and managed Wordpress sites, ensuring high performance and security. (Lahore, Punjab, Pakistan)"
+    },
+    {
+        role: "College Lecturer",
+        company: "Superior College",
+        period: "Oct 2020 - Jan 2021",
+        description: "Taught programming and project management concepts. (Sheikhupura District, Punjab, Pakistan)"
     }
 ];
 

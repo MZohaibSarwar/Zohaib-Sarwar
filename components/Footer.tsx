@@ -3,8 +3,8 @@ export default function Footer() {
         <footer className="bg-dark border-t border-white/10 py-12 px-6">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="text-center md:text-left">
-                    <p className="text-xl font-bold text-primary mb-2">Zohaib Sarwar</p>
-                    <p className="text-gray-400 text-sm">Full Stack Developer & SEO Strategist</p>
+                    <p className="text-xl font-bold text-primary mb-2">Waqas Asghar</p>
+                    <p className="text-gray-400 text-sm">Full Stack Developer | CPA & Certified PMP</p>
                 </div>
 
                 <div className="flex space-x-6">
@@ -15,7 +15,7 @@ export default function Footer() {
                 </div>
 
                 <div className="text-gray-500 text-sm">
-                    &copy; {new Date().getFullYear()} Zohaib Sarwar. All rights reserved.
+                    &copy; {new Date().getFullYear()} Waqas Asghar. All rights reserved.
                 </div>
             </div>
         </footer>
