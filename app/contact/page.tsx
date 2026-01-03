@@ -9,11 +9,32 @@ export default function ContactPage() {
     const [formData, setFormData] = useState({ name: "", email: "", project: "", message: "" });
     const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setStatus("loading");
-        // Simulate API call
-        setTimeout(() => setStatus("success"), 1500);
+
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(data.error || 'Failed to send message');
+            }
+
+            setStatus("success");
+            setFormData({ name: "", email: "", project: "", message: "" });
+        } catch (error) {
+            console.error('Submission error:', error);
+            setStatus("idle");
+            alert("Failed to send message. Please try again later.");
+        }
     };
 
     return (

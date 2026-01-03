@@ -8,8 +8,10 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen flex items-center justify-center pt-28 px-4 sm:px-6 overflow-hidden">
             {/* Background Blobs */}
-            <div className="absolute top-1/4 -left-20 w-72 h-72 bg-primary/20 rounded-full blur-[100px]" />
-            <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px]" />
+            <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute top-1/4 -left-20 w-72 h-72 bg-primary/20 rounded-full blur-[100px]" />
+                <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px]" />
+            </div>
 
             <div className="max-w-7xl mx-auto text-center z-10">
                 <motion.div
