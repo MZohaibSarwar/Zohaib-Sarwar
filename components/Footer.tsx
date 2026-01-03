@@ -8,10 +8,10 @@ export default function Footer() {
                 </div>
 
                 <div className="flex space-x-6">
-                    <a href="http://www.linkedin.com/in/zohaib-sarwar-2631b3211" target="_blank" className="text-gray-400 hover:text-primary transition-colors">LinkedIn</a>
-                    <a href="https://github.com/MZohaibSarwar" target="_blank" className="text-gray-400 hover:text-primary transition-colors">GitHub</a>
-                    <a href="https://www.upwork.com/freelancers/~01ba79c1150830620d?mp_source=share" target="_blank" className="text-gray-400 hover:text-primary transition-colors">Upwork</a>
-                    <a href="https://www.fiverr.com/zohaib1sarwar" target="_blank" className="text-gray-400 hover:text-primary transition-colors">Fiverr</a>
+                    <a href="https://www.linkedin.com/in/thewaqas/" target="_blank" className="text-gray-400 hover:text-primary transition-colors">LinkedIn</a>
+                    <a href="https://github.com/thewaqaspro" target="_blank" className="text-gray-400 hover:text-primary transition-colors">GitHub</a>
+                    <a href="https://stackoverflow.com/users/7899307/waqas" target="_blank" className="text-gray-400 hover:text-primary transition-colors">Stackoverflow</a>
+                    <a href="https://upwork.com/freelancers/thewaqas?mp_source=share" target="_blank" className="text-gray-400 hover:text-primary transition-colors">Upwork</a>
                 </div>
 
                 <div className="text-gray-500 text-sm">

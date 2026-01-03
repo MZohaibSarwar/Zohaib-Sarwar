@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Mail, Github, Linkedin, Send, Phone } from "lucide-react";
-import { SiFiverr, SiUpwork } from "react-icons/si";
+import { SiUpwork, SiStackoverflow } from "react-icons/si";
 import { useState } from "react";
 
 export default function ContactPage() {
@@ -70,8 +70,8 @@ export default function ContactPage() {
                         <div className="flex gap-4">
                             <a href="https://www.linkedin.com/in/thewaqas/" target="blank" className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><Linkedin /></a>
                             <a href="https://github.com/thewaqaspro" target="blank" className="p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><Github /></a>
-                            <a href="https://www.fiverr.com/zohaib1sarwar" target="blank" className="react-icons p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><SiFiverr /></a>
-                            <a href="https://www.upwork.com/freelancers/~01ba79c1150830620d?mp_source=share" target="blank" className="react-icons p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><SiUpwork /></a>
+                            <a href="https://stackoverflow.com/users/7899307/waqas" target="blank" className="react-icons p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><SiStackoverflow /></a>
+                            <a href="https://upwork.com/freelancers/thewaqas?mp_source=share" target="blank" className="react-icons p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors"><SiUpwork /></a>
                         </div>
                     </div>
                 </div>
