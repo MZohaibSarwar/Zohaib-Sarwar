@@ -53,7 +53,7 @@ export default function About() {
                 >
                     <div className="aspect-square rounded-3xl overflow-hidden hover:scale-[1.02] transition-all duration-700 bg-white/5 border border-primary/20 flex items-center justify-center">
                         <img
-                            src="https://zohaib.power-devs.com/wp-content/uploads/2024/11/Zohaib-Sarwar-3-1.png"
+                            src="/images/Zohaib-Sarwar.png"
                             alt="Zohaib Sarwar"
                             className="w-full h-full object-cover"
                         />
