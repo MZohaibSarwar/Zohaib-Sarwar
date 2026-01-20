@@ -125,10 +125,10 @@ export default function ContactPage() {
                                     className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 focus:outline-none focus:border-primary transition-colors appearance-none"
                                     onChange={(e) => setFormData({ ...formData, project: e.target.value })}
                                 >
-                                    <option>Web Development</option>
-                                    <option>SEO Strategy</option>
-                                    <option>Page Speed Optimization</option>
-                                    <option>Something else</option>
+                                    <option className="bg-gray-900 text-gray-300">Web Development</option>
+                                    <option className="bg-gray-900 text-gray-300">SEO Strategy</option>
+                                    <option className="bg-gray-900 text-gray-300">Page Speed Optimization</option>
+                                    <option className="bg-gray-900 text-gray-300">Something else</option>
                                 </select>
                             </div>
                             <div>
