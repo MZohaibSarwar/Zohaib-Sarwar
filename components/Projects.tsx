@@ -48,7 +48,7 @@ const projects: Project[] = [
         seoFocus: "Website Development & SEO Optimization",
         github: "https://github.com/MZohaibSarwar",
         demo: "https://goodguitarist.com/",
-        image: "/images/goodguitarist portfolio.webp",
+        image: "/images/GoodGuitarist portfolio.webp",
     },
     {
         title: "Ladies School Of Driving",
@@ -57,7 +57,7 @@ const projects: Project[] = [
         seoFocus: "Core Web Vitals & Dynamic Schema",
         github: "https://github.com/MZohaibSarwar",
         demo: "https://dev.ladiesdriving.co.uk/",
-        image: "/images/Ladies School of driving portfolio.webp",
+        image: "/images/Ladies School of Driving portfolio.webp",
     },
     {
         title: "Goodwin Pelvic PT",
@@ -66,7 +66,7 @@ const projects: Project[] = [
         seoFocus: "Website Development & SEO Optimization",
         github: "https://github.com/MZohaibSarwar",
         demo: "https://goodwinpelvicpt.com/",
-        image: "/images/goodwin pelvic pt portfolio.webp",
+        image: "/images/Goodwin Pelvic PT portfolio.webp",
     },
     {
         title: "TRT Colombia",
@@ -84,7 +84,7 @@ const projects: Project[] = [
         seoFocus: "Website Development & SEO Optimization",
         github: "https://github.com/MZohaibSarwar",
         demo: "https://themovementschopp.com/",
-        image: "/images/the movement schopp portfolio.webp",
+        image: "/images/The Movement Schopp portfolio.webp",
     },
     {
         title: "Wisconsin Foot & Ankle Clinic",
