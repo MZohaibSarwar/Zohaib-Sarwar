@@ -57,7 +57,7 @@ export default function ContactPage() {
                                 <p className="text-xl font-bold">+923314831548</p>
                             </div>
                         </a>
-                        <a href="mailto:zohaib.s169@gmail.com" target="blank" className="flex items-center gap-6 group">
+                        <a href="mailto:zohaib.s169@gmail.com" className="flex items-center gap-6 group">
                             <div className="p-4 rounded-2xl bg-white/5 border border-white/10 group-hover:border-primary/50 transition-colors">
                                 <Mail className="text-primary" />
                             </div>

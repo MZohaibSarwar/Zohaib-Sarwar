@@ -19,27 +19,81 @@ const projects: Project[] = [
         description: "A high-performance digital marketing agency website built with Next.js and Headless CMS, optimized for sub-second load times.",
         tags: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
         seoFocus: "Core Web Vitals & Dynamic Schema",
-        github: "#",
+        github: "https://github.com/MZohaibSarwar",
         demo: "https://kyndstudio.com/",
         image: "/images/kyndstudio-project.webp",
     },
     {
         title: "Vitality Tulsa",
-        description: "A scalable property listing platform with advanced filtering and map integration.",
+        description: "A Physical Therapy clinic website featuring online appointment booking and patient resources.",
         tags: ["Wordpress", "Elementor", "WpForms", "Custom PHP"],
         seoFocus: "Website Development & SEO Optimization",
-        github: "#",
+        github: "https://github.com/MZohaibSarwar",
         demo: "https://vitalitytulsa.com/",
         image: "/images/vitality-tulsa-project.webp",
     },
     {
         title: "Absolute Petroleum",
-        description: "Personalized workout and nutrition planning app with real-time progress tracking.",
+        description: "A petroleum services company website with integrated SEO strategies to boost online visibility.",
         tags: ["Wordpress", "Elementor", "WpForms", "Custom PHP"],
         seoFocus: "Website Development & SEO Optimization",
-        github: "#",
+        github: "https://github.com/MZohaibSarwar",
         demo: "https://absolutepetroleum.com/",
         image: "/images/absolute-petroleum-project.webp",
+    },
+    {
+        title: "Good Guitarist",
+        description: "A music tutoring platform offering personalized guitar lessons and resources.",
+        tags: ["Wordpress", "Elementor", "WpForms", "Custom PHP"],
+        seoFocus: "Website Development & SEO Optimization",
+        github: "https://github.com/MZohaibSarwar",
+        demo: "https://goodguitarist.com/",
+        image: "/images/goodguitarist portfolio.webp",
+    },
+    {
+        title: "Ladies School Of Driving",
+        description: "A driver education website with course scheduling and online resources for students.",
+        tags: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
+        seoFocus: "Core Web Vitals & Dynamic Schema",
+        github: "https://github.com/MZohaibSarwar",
+        demo: "https://dev.ladiesdriving.co.uk/",
+        image: "/images/Ladies School of driving portfolio.webp",
+    },
+    {
+        title: "Goodwin Pelvic PT",
+        description: "A Physical Therapy clinic website featuring online appointment booking and patient resources.",
+        tags: ["Wordpress", "Elementor", "WpForms", "Custom PHP"],
+        seoFocus: "Website Development & SEO Optimization",
+        github: "https://github.com/MZohaibSarwar",
+        demo: "https://goodwinpelvicpt.com/",
+        image: "/images/goodwin pelvic pt portfolio.webp",
+    },
+    {
+        title: "TRT Colombia",
+        description: "A health and wellness website with integrated SEO strategies to boost online visibility.",
+        tags: ["Wordpress", "Elementor", "WpForms", "Custom PHP"],
+        seoFocus: "Core Web Vitals & Dynamic Schema",
+        github: "https://github.com/MZohaibSarwar",
+        demo: "https://trtcolombia.com/",
+        image: "/images/trtcolombia portfolio.webp",
+    },
+    {
+        title: "The Movement Schopp",
+        description: "A physical therapy practice website with patient resources and appointment scheduling.",
+        tags: ["Wordpress", "Elementor", "WpForms", "Custom PHP"],
+        seoFocus: "Website Development & SEO Optimization",
+        github: "https://github.com/MZohaibSarwar",
+        demo: "https://themovementschopp.com/",
+        image: "/images/the movement schopp portfolio.webp",
+    },
+    {
+        title: "Wisconsin Foot & Ankle Clinic",
+        description: "Foot and ankle clinic website with patient resources and online appointment scheduling.",
+        tags: ["Wordpress", "Elementor", "WpForms", "Custom PHP"],
+        seoFocus: "Website Development & SEO Optimization",
+        github: "https://github.com/MZohaibSarwar",
+        demo: "https://wisconsinfootandankleclinic.com/",
+        image: "/images/wisconsin foot and ankle clinic portfolio.webp",
     },
 ];
 
@@ -87,8 +141,8 @@ export default function Projects({ isHomePage = false }: { isHomePage?: boolean 
                             <div className="flex justify-between items-start mb-4">
                                 <h3 className="text-xl font-bold group-hover:text-primary transition-colors">{project.title}</h3>
                                 <div className="flex gap-3">
-                                    {project.github && <a href={project.github} className="p-2 rounded-full bg-white/5 text-gray-400 hover:text-white hover:bg-white/10 transition-all"><Github size={18} /></a>}
-                                    {project.demo && <a href={project.demo} className="p-2 rounded-full bg-white/5 text-gray-400 hover:text-white hover:bg-white/10 transition-all"><ExternalLink size={18} /></a>}
+                                    {project.github && <a href={project.github} target="blank" className="p-2 rounded-full bg-white/5 text-gray-400 hover:text-white hover:bg-white/10 transition-all"><Github size={18} /></a>}
+                                    {project.demo && <a href={project.demo} target="blank" className="p-2 rounded-full bg-white/5 text-gray-400 hover:text-white hover:bg-white/10 transition-all"><ExternalLink size={18} /></a>}
                                 </div>
                             </div>
 
