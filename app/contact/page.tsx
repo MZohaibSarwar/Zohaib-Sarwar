@@ -87,7 +87,7 @@ export default function ContactPage() {
                                 <Send className="text-primary" size={32} />
                             </div>
                             <h3 className="text-2xl font-bold mb-2">Message Received!</h3>
-                            <p className="text-gray-400">Thanks for reaching out, Zohaib will get back to you shortly.</p>
+                            <p className="text-gray-400">Thanks for reaching out, I will get back to you shortly.</p>
                             <button
                                 onClick={() => setStatus("idle")}
                                 className="mt-8 text-primary font-bold hover:underline"
