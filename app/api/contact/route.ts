@@ -15,7 +15,7 @@ export async function POST(request: Request) {
         }
 
         const data = await resend.emails.send({
-            from: 'Contact Form <onboarding@resend.dev>', // Use your verified domain here if available
+            from: 'Contact Form <zohaib.site>', // Use your verified domain here if available
             to: process.env.CONTACT_EMAIL || 'zohaib.s169@gmail.com',
             subject: subject || `New message from ${name}`,
             react: ContactEmail({ name, email, message, subject }),
@@ -23,7 +23,7 @@ export async function POST(request: Request) {
 
         if (data.error) {
             console.error('Resend error:', data.error);
-            return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
+            return NextResponse.json({ error: "Failed to send email", details: data.error }, { status: 500 });
         }
 
         return NextResponse.json({ message: "Success", data }, { status: 200 });
